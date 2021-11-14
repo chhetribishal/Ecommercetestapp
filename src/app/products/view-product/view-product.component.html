@@ -1,0 +1,16 @@
+
+<div *ngFor="let product of productData"> 
+<div class="card mt-4" >
+    <img class="card-img-top " src="{{product.productImg}}" width="400" height="700" alt="..." />
+     
+    <div class="card-body">
+        <h3 class="card-title">{{product.name}}</h3>
+        <a href="products/update-product/{{product.id}}">Update Product</a> |
+        <a href="products/delete-product/{{product.id}}">Delete Product</a>
+         <h4>RS.{{product.price}}</h4>
+        <p class="card-text">{{product.descriptions}}</p>
+        <span class="text-warning">{{product.rating}}</span>
+        stars
+    </div>
+</div>
+</div>

@@ -1,0 +1,82 @@
+{
+  "product": [
+    {
+      "name": "Jeans",
+      "categoryID": 3,
+      "descriptions": "description second",
+      "price": "1000",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Jacket",
+      "categoryID": 3,
+      "descriptions": "description third",
+      "price": 500,
+      "is_available": true,
+      "productImg": "http://localhost:4200/assets/j1.jpg",
+      "rating": 4,
+      "review": 10,
+      "vendor_name": "kanxo_shop",
+      "waranty": 1
+    },
+    {
+      "id": 112,
+      "name": "shirt",
+      "categoryID": "354",
+      "descriptions": "WO",
+      "rating": "3",
+      "price": "500",
+      "productImg": "http://localhost:4200/assets/t-shirt.jpg",
+      "is_available": 1,
+      "color": "red",
+      "review": "3"
+    },
+    {
+      "id": 115,
+      "name": "iphone12",
+      "categoryID": "12",
+      "descriptions": "dfg",
+      "rating": "2",
+      "price": "45,500",
+      "productImg": "http://localhost:4200/assets/ios1.jpg",
+      "is_available": 1,
+      "color": "black",
+      "review": "5"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryname": "Electronics"
+    },
+    {
+      "id": 2,
+      "categoryname": "Men"
+    },
+    {
+      "id": 3,
+      "categoryname": "women"
+    },
+    {
+      "id": 4,
+      "categoryname": "Baby & Kids"
+    },
+    {
+      "id": 5,
+      "categoryname": "Home & Furniture"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "name": "typicode"
+    }
+  ]
+}

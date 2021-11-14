@@ -1,0 +1,16 @@
+<h1>showing result by category</h1>
+<div class="row">
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor="let product of productList">
+        <div class="card h-100">
+            <a href="#!"><img class="card-img-top" src="{{product.productImg}}" width="250" height="300" alt="..." /></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="products/view-product/{{product.id}} ">{{product.name}}</a>
+                </h4>
+                <h5>Rs.{{product.price}}</h5>
+                <p class="card-text">{{product.descriptions}}</p>
+            </div>
+            <div class="card-footer"><small class="text-muted">{{product.rating}} star</small></div>
+        </div>
+    </div>
+</div>
